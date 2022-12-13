@@ -19,6 +19,6 @@ RC4:
    $plaintext = "Hello World!";
    $ciphertext = rc4( $key, $plaintext );
    $decrypted = rc4( $key, $ciphertext );
-   echo bin2hex($ciphertext) . "<BR>";
-   echo $decrypted . " = " . $plaintext . "<BR>";
+   echo bin2hex($ciphertext) . "\n";
+   echo $decrypted . " = " . $plaintext . "\n";
 ?>
